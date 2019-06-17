@@ -1,0 +1,19 @@
+@import 'styles/utils.scss';
+
+.content {
+    height: 100%;
+    background: $oc-indigo-6; 
+    color: white;
+    border: 1px solid $oc-indigo-6;
+
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        width: 35rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4rem;
+
+    }
+}

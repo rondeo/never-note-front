@@ -1,0 +1,44 @@
+@import 'styles/utils.scss';
+
+.header {
+    display: flex;
+    padding: 1rem;
+    .logo {
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+
+    .nav {
+        padding: 1rem;
+        flex: 1;
+    }
+
+    .account {
+        font-size: 0.8rem;
+        .register {
+            display: inline-block;
+            margin: 1rem;
+            cursor: pointer;
+            color: $oc-blue-6;
+            &:hover {
+                color: $oc-blue-4;
+            }
+        }
+
+        .login {
+            display: inline-block;
+            margin-left: 1rem;
+            margin-right: 2rem;
+            padding: 0.2rem 1rem 0.2rem 1rem;
+            border: 1px solid $oc-blue-6;
+            color: $oc-blue-6;
+            border-radius: 2px;
+            cursor: pointer;
+
+            &:hover {
+                border: 1px solid $oc-blue-4;
+                color: $oc-blue-4;
+            }
+        }
+    }
+}

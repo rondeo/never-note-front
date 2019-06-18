@@ -13,7 +13,7 @@ class RegisterForm extends Component {
                 <div className={cx('form')}>
                     <div className={cx('input')}><input type='text' /></div>
                     <div className={cx('input')}><input type='password' /></div>
-                    <div className={cx('button')}>가입하기</div>
+                    <div className={cx('button')}>로그인</div>
                 </div>
                 <div className={cx('footer')}>
                     <div className={cx('text')}>

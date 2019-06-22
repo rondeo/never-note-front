@@ -6,6 +6,7 @@ import styles from './Enter.module.scss';
 
 class Enter extends Component {
     render() {
+        console.log(this.props.loggedIn);
         const cx = classNames.bind(styles);
         return(
             <div className={cx('enter')}>

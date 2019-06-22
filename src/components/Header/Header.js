@@ -14,11 +14,13 @@ class Header extends Component {
                     메뉴
                 </div>
                 <div className={cx('account')}>
-                        <div className={cx('register')} onClick={() => {window.location.href = 'register';}}>
+                        <div 
+                            className={cx('register')} 
+                            onClick={() => {window.location.href = 'register-view';}}>
                             가입
                         </div>
                         또는
-                        <div className={cx('login')} onClick={() => {window.location.href = 'login';}}>
+                        <div className={cx('login')} onClick={() => {window.location.href = 'login-view';}}>
                             로그인
                         </div>
                     </div>

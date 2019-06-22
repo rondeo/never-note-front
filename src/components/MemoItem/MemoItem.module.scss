@@ -1,0 +1,32 @@
+@import 'styles/utils.scss';
+
+.item {
+    height: 150px;
+
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+
+    cursor: pointer;
+    &:hover {
+        background: $oc-indigo-5;
+        transition-timing-function: ease-out;
+        transition-duration: 0.2s;
+        color: white;
+        .title {
+            color: white;
+        }
+        .content {
+            color: white;
+        }
+    }
+
+    .title {
+        color: black;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .content {
+        color: $oc-gray-5;
+    }
+}

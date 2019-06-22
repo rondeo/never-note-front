@@ -8,15 +8,15 @@ class MemoNav extends Component {
         return(
             <div className={cx('memo-nav')}>
                 <ul className={cx('upper-nav')}>
-                    <li><i class="fas fa-plus"></i></li>
-                    <li><i class="fas fa-search"></i></li>
+                    <li><i className="fas fa-plus"></i></li>
+                    <li><i className="fas fa-search"></i></li>
                 </ul>
 
                 <ul className={cx('lower-nav')}>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-sticky-note"></i></li>
-                    <li><i class="fas fa-book"></i></li>
-                    <li><i class="fas fa-tag"></i></li>
+                    <li><i className="fas fa-star"></i></li>
+                    <li><i className="fas fa-sticky-note"></i></li>
+                    <li><i className="fas fa-book"></i></li>
+                    <li><i className="fas fa-tag"></i></li>
                 </ul>
 
                 <div className={cx('account')}>
